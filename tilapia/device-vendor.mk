@@ -14,7 +14,7 @@
 
 LOCAL_STEM := tilapia/device-partial.mk
 
-$(call inherit-product-if-exists, vendor/asus/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/asus/tilapia/device-vendor-blobs.mk)
 $(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/elan/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/invensense/$(LOCAL_STEM))
@@ -22,4 +22,4 @@ $(call inherit-product-if-exists, vendor/nvidia/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
 
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+PRODUCT_RESTRICT_VENDOR_FILES := false
