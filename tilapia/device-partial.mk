@@ -12,14 +12,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_STEM := tilapia/device-partial.mk
-
-$(call inherit-product-if-exists, vendor/asus/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/broadcom/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/elan/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/invensense/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/nvidia/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/nxp/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/widevine/$(LOCAL_STEM))
-
-PRODUCT_RESTRICT_VENDOR_FILES := owner
+# Asus blob(s) necessary for Grouper hardware
+PRODUCT_PACKAGES := \
+    sensors-config \
+    apns-conf \
+    camera.tegra3 \
+    sensors.grouper \
+    libsensors.lightsensor \
+    libxgold-ril \
+    libdrmwvmplugin \
+    libwvm
