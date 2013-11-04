@@ -17,4 +17,9 @@ PRODUCT_COPY_FILES := \
     vendor/asus/deb/proprietary/apns-conf.xml:system/etc/apns-conf.xml:asus \
     vendor/asus/deb/proprietary/libAKM.so:system/lib/libAKM.so:asus \
     vendor/asus/deb/proprietary/libacdbdata.so:system/lib/libacdbdata.so:asus \
+    vendor/asus/flo/proprietary/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/asus/flo/proprietary/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/asus/flo/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/asus/flo/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/asus/flo/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
 
