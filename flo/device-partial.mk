@@ -14,11 +14,6 @@
 
 # Asus blob(s) necessary for Flo hardware
 PRODUCT_COPY_FILES := \
-    vendor/asus/flo/proprietary/libAKM.so:system/lib/libAKM.so:asus \
     vendor/asus/flo/proprietary/libacdbdata.so:system/lib/libacdbdata.so:asus \
-    vendor/asus/flo/proprietary/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/asus/flo/proprietary/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/asus/flo/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/asus/flo/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/asus/flo/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/asus/flo/proprietary/libAKM.so:system/lib/libAKM.so:asus \
 
