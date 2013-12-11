@@ -1181,6 +1181,13 @@
       type="mms"
   />
 
+  <apn carrier="UNE"
+      mcc="732"
+      mnc="142"
+      apn="une4glte.net.co"
+      type="default"
+  />
+
   <apn carrier="TELE2 Internet"
       mcc="219"
       mnc="02"
@@ -2248,214 +2255,6 @@
       type="mms"
   />
 
-  <apn carrier="o2 post-paid"
-      mcc="262"
-      mnc="07"
-      apn="internet"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.5"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="o2 prepaid"
-      mcc="262"
-      mnc="07"
-      apn="pinternet.interkom.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.6"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="AOL"
-      mcc="262"
-      mnc="07"
-      apn="internet.partner1"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.41"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Debitel Internet post-paid"
-      mcc="262"
-      mnc="07"
-      apn="wap.debitel.de"
-      type="default,supl"
-  />
-
-  <apn carrier="Debitel MMS post-paid"
-      mcc="262"
-      mnc="07"
-      apn="wap.debitel.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="193.168.128.127"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Debitel INET post-paid"
-      mcc="262"
-      mnc="07"
-      apn="internet.debitel.de"
-      type="default"
-  />
-
-  <apn carrier="Driliish post-paid"
-      mcc="262"
-      mnc="07"
-      apn="internet.victorvox"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.38"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Fonic"
-      mcc="262"
-      mnc="07"
-      apn="pinternet.interkom.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.6"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Freenet Postpaid"
-      mcc="262"
-      mnc="07"
-      apn="internet.online"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.45"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Freenet Prepaid"
-      mcc="262"
-      mnc="07"
-      apn="pinternet.interkom.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.6"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Kabel Deutschland"
-      mcc="262"
-      mnc="07"
-      apn="internet.kabeld"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.5"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="M-Net Postpaid"
-      mcc="262"
-      mnc="07"
-      apn="internet.online1"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.44"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Mobilcom post-paid"
-      mcc="262"
-      mnc="07"
-      apn="internet.mobilcom"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.37"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Mobilcom Prepaid"
-      mcc="262"
-      mnc="07"
-      apn="pinternet.interkom.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.6"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="SCHLECKER Prepaid"
-      mcc="262"
-      mnc="07"
-      apn="pinternet.interkom.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.6"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Talkline"
-      mcc="262"
-      mnc="07"
-      apn="internet.talkline"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.40"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Talkline Prepaid"
-      mcc="262"
-      mnc="07"
-      apn="pinternet.interkom.de"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.6"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Tchibo post-paid"
-      mcc="262"
-      mnc="07"
-      apn="wapmobil2"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.8"
-      mmsport="8080"
-      type="*"
-  />
-
-  <apn carrier="Tchibo pre-paid Internet"
-      mcc="262"
-      mnc="07"
-      apn="wapmobil1"
-      type="default,supl"
-  />
-
-  <apn carrier="Tchibo pre-paid MMS"
-      mcc="262"
-      mnc="07"
-      apn="wapmobil1"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.8"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Tchibo pre-paid INET"
-      mcc="262"
-      mnc="07"
-      apn="webmobil1"
-      type="default"
-  />
-
-  <apn carrier="Telco"
-      mcc="262"
-      mnc="07"
-      apn="internet.telco"
-      mmsc="http://10.81.0.7:8002"
-      mmsproxy="82.113.100.43"
-      mmsport="8080"
-      type="*"
-  />
-
   <apn carrier="COSMOTE Internet postpaid"
       mcc="202"
       mnc="01"
@@ -2632,14 +2431,14 @@
   <apn carrier="1010 Tethering"
       mcc="454"
       mnc="02"
-      apn="internet"
+      apn="lte.internet"
       type="dun"
   />
 
   <apn carrier="1010 Tethering"
       mcc="454"
       mnc="02"
-      apn="lte.internet"
+      apn="internet"
       type="dun"
   />
 
@@ -2668,14 +2467,14 @@
   <apn carrier="1010 Tethering"
       mcc="454"
       mnc="10"
-      apn="internet"
+      apn="lte.internet"
       type="dun"
   />
 
   <apn carrier="1010 Tethering"
       mcc="454"
       mnc="10"
-      apn="lte.internet"
+      apn="internet"
       type="dun"
   />
 
@@ -2704,14 +2503,14 @@
   <apn carrier="1010 Tethering"
       mcc="454"
       mnc="18"
-      apn="internet"
+      apn="lte.internet"
       type="dun"
   />
 
   <apn carrier="1010 Tethering"
       mcc="454"
       mnc="18"
-      apn="lte.internet"
+      apn="internet"
       type="dun"
   />
 
@@ -2776,14 +2575,14 @@
   <apn carrier="one2free Tethering"
       mcc="454"
       mnc="02"
-      apn="internet"
+      apn="lte.internet"
       type="dun"
   />
 
   <apn carrier="one2free Tethering"
       mcc="454"
       mnc="02"
-      apn="lte.internet"
+      apn="internet"
       type="dun"
   />
 
@@ -5247,12 +5046,49 @@
       type="mms"
   />
 
+  <apn carrier="PosteMobile"
+      mcc="222"
+      mnc="33"
+      apn="wap.postemobile.it"
+      type="default,dun"
+  />
+
+  <apn carrier="PosteMobile MMS"
+      mcc="222"
+      mnc="33"
+      apn="mms.postemobile.it "
+      mmsc="http://mms.postemobile.it/servlets/mms"
+      mmsproxy="10.128.224.10"
+      mmsport="80"
+      type="mms"
+  />
+
   <apn carrier="moperaU"
       mcc="440"
       mnc="10"
       apn="mopera.net"
       type="default,supl"
       authtype="1"
+  />
+
+  <apn carrier="IIJmio"
+      mcc="440"
+      mnc="10"
+      apn="iijmio.jp"
+      user="mio@iij"
+      password="iij"
+      type="default,supl"
+      authtype="3"
+  />
+
+  <apn carrier="dm.jplat.net"
+      mcc="440"
+      mnc="10"
+      apn="dm.jplat.net"
+      user="mobile@rakutenbb.jp"
+      password="rakutenbb"
+      type="default,supl"
+      authtype="3"
   />
 
   <apn carrier="b-mobile アマゾン"
@@ -5325,24 +5161,13 @@
       authtype="3"
   />
 
-  <apn carrier="IIJmio"
+  <apn carrier="plus.softbank"
       mcc="440"
-      mnc="10"
-      apn="iijmio.jp"
-      user="mio@iij"
-      password="iij"
+      mnc="20"
+      apn="plus.softbank"
+      user="plus"
+      password="softbank"
       type="default,supl"
-      authtype="3"
-  />
-
-  <apn carrier="dm.jplat.net"
-      mcc="440"
-      mnc="10"
-      apn="dm.jplat.net"
-      user="mobile@rakutenbb.jp"
-      password="rakutenbb"
-      type="default,supl"
-      authtype="3"
   />
 
   <apn carrier="EMOBILE"
@@ -5353,15 +5178,6 @@
       password="em"
       type="default,supl"
       bearer="14"
-  />
-
-  <apn carrier="plus.softbank"
-      mcc="440"
-      mnc="20"
-      apn="plus.softbank"
-      user="plus"
-      password="softbank"
-      type="default,supl"
   />
 
   <apn carrier="Umniah Internet"
@@ -8543,6 +8359,14 @@
       mmsproxy="172.28.33.5"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="arcoa"
+      mcc="466"
+      mnc="01"
+      apn="arcoa"
+      type="*"
+      authtype="3"
   />
 
   <apn carrier="Test SIM"
