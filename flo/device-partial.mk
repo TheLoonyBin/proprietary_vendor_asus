@@ -16,4 +16,5 @@
 PRODUCT_COPY_FILES := \
     vendor/asus/flo/proprietary/libacdbdata.so:system/lib/libacdbdata.so:asus \
     vendor/asus/flo/proprietary/libAKM.so:system/lib/libAKM.so:asus \
+    vendor/asus/flo/proprietary/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
