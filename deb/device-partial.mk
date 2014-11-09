@@ -17,5 +17,4 @@ PRODUCT_COPY_FILES := \
     vendor/asus/deb/proprietary/apns-conf.xml:system/etc/apns-conf.xml:asus \
     vendor/asus/deb/proprietary/libacdbdata.so:system/lib/libacdbdata.so:asus \
     vendor/asus/deb/proprietary/libAKM.so:system/lib/libAKM.so:asus \
-    vendor/asus/deb/proprietary/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
