@@ -269,6 +269,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/lib/libimf.so:system/lib/libimf.so \
     vendor/asus/mofd-common/proprietary/lib/libintlc.so:system/lib/libintlc.so \
     vendor/asus/mofd-common/proprietary/lib/libirng.so:system/lib/libirng.so \
+    vendor/asus/mofd-common/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/asus/mofd-common/proprietary/lib/libmix_imagedecoder.so:system/lib/libmix_imagedecoder.so \
     vendor/asus/mofd-common/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
     vendor/asus/mofd-common/proprietary/lib/libsvml.so:system/lib/libsvml.so \
@@ -354,10 +355,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/mofd-common/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/asus/mofd-common/proprietary/bin/houdini:system/bin/houdini \
     vendor/asus/mofd-common/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
-    vendor/asus/mofd-common/proprietary/lib/hw/hwcomposer.moorefield.so:system/lib/hw/hwcomposer.moorefield.so \
-    vendor/asus/mofd-common/proprietary/lib/libhwcwidi.so:system/lib/libhwcwidi.so \
-    vendor/asus/mofd-common/proprietary/lib/libmultidisplay.so:system/lib/libmultidisplay.so \
-    vendor/asus/mofd-common/proprietary/lib/libvpp_setting.so:system/lib/libvpp_setting.so \
     vendor/asus/mofd-common/proprietary/lib/hw/lights.vendor.mofd_v1.so:system/lib/hw/lights.vendor.mofd_v1.so \
     vendor/asus/mofd-common/proprietary/lib/libdx_cc7.so:system/lib/libdx_cc7.so \
     vendor/asus/mofd-common/proprietary/lib/libgabi++-mfx.so:system/lib/libgabi++-mfx.so \
